@@ -1,0 +1,4 @@
+INFO main com.test.cluster.node.EGM - EGM写入数据 key：user_name_01 val：张三
+INFO main com.test.cluster.node.EGM - EGM获取数据 key：user_name_01
+INFO main com.test.cluster.node.IIR - IIR写入数据 key：user_name_01 val：张三
+INFO main com.test.cluster.node.IIR - IIR获取数据 key：user_name_01
