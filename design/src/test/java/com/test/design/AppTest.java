@@ -8,6 +8,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.alibaba.fastjson.JSON;
+import com.test.design.factory.ICommodity;
+import com.test.design.factory.PrizeFactory;
 
 import junit.framework.TestCase;
 
@@ -84,6 +86,35 @@ public class AppTest
         logger.info("请求参数：{}", JSON.toJSON(req03));
         logger.info("测试结果：{}", JSON.toJSON(awardRes03));
 		
+	}
+	
+	@Test
+	public void test_commodity()throws Exception{
+		
+		PrizeFactory prizeFactory = new PrizeFactory();
+		
+		//优惠券
+		ICommodity commodityService_1 = prizeFactory.getCommodityService(1);
+		
+		commodityService_1.sendCommondity("1001", "Ecmjasid124", "12544",null);
+		
+		//实物
+		ICommodity commodityService_2 = prizeFactory.getCommodityService(2);
+		
+		Map<String,String> extMap = new HashMap<String,String>();
+		extMap.put("conUserName", "haha");
+		
+		extMap.put("conUserPhone", "152121513");
+		
+		extMap.put("conUserAddress", "asdf11");
+		
+		commodityService_2.sendCommondity("1002", "aEcmjasasid124", "12544asd",extMap);
+		
+		//会员卡
+		ICommodity commodityService_3 = prizeFactory.getCommodityService(3);
+		
+		
+		commodityService_3.sendCommondity("1003", "aEcmjasasid12a4", null,null);
 	}
 	
 	 

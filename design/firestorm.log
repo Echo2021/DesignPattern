@@ -10,3 +10,25 @@ INFO main com.test.design.PrizeController - 奖品发放，req:10001
 INFO main com.test.design.PrizeController - 奖品发放完成10001。
 INFO main com.test.design.AppTest - 请求参数：{"uId":"10001","awardNum":"AQY1xjkUodl8LO975GdfrYUio","awardType":3}
 INFO main com.test.design.AppTest - 测试结果：{"code":"0000","info":"发放成功"}
+INFO main com.test.design.PrizeController - 奖品发放，req:10001
+INFO main com.test.design.PrizeController - 奖品发放完成10001。
+INFO main com.test.design.AppTest - 请求参数:{"uId":"10001","bizId":"7891201023","awardNum":"EGM1021010","awardType":1}
+INFO main com.test.design.AppTest - 测试结果：{"code":"0000","info":"发送成功"}
+INFO main com.test.design.PrizeController - 奖品发放，req:1001
+INFO main com.test.design.PrizeController - 奖品发放完成1001。
+INFO main com.test.design.AppTest - 请求参数：{"uId":"1001","expMap":{"conUserPhone":"1512115","conUserName":"haha","conUserAddress":"jiajsjdkjf"},"bizId":"11510212511","awardNum":"jijo5666","awardType":2}
+INFO main com.test.design.AppTest - 测试结果：{"code":"0000","info":"发放成功"}
+INFO main com.test.design.PrizeController - 奖品发放，req:10001
+INFO main com.test.design.PrizeController - 奖品发放完成10001。
+INFO main com.test.design.AppTest - 请求参数：{"uId":"10001","awardNum":"AQY1xjkUodl8LO975GdfrYUio","awardType":3}
+INFO main com.test.design.AppTest - 测试结果：{"code":"0000","info":"发放成功"}
+INFO main com.test.design.factory.service.CouponCommodityService - 请求参数(优惠券)=》 uid:1001 commodityId:Ecmjasid124 bizId:12544 extMap:null
+INFO main com.test.design.factory.service.CouponCommodityService - 测试结果[优惠券]:{"code":"0000","info":"发送成功"}
+INFO main com.test.design.factory.service.GoodsCommodityService - 请求参数(实物)=》 uid:1002 commodityId:aEcmjasasid124 bizId:12544asd extMap:{"conUserPhone":"152121513","conUserName":"haha","conUserAddress":"asdf11"}
+INFO main com.test.design.factory.service.GoodsCommodityService - 测试结果[实物]:true
+INFO main com.test.design.factory.service.CouponCommodityService - 请求参数(优惠券)=》 uid:1001 commodityId:Ecmjasid124 bizId:12544 extMap:null
+INFO main com.test.design.factory.service.CouponCommodityService - 测试结果[优惠券]:{"code":"0000","info":"发送成功"}
+INFO main com.test.design.factory.service.GoodsCommodityService - 请求参数(实物)=》 uid:1002 commodityId:aEcmjasasid124 bizId:12544asd extMap:{"conUserPhone":"152121513","conUserName":"haha","conUserAddress":"asdf11"}
+INFO main com.test.design.factory.service.GoodsCommodityService - 测试结果[实物]:true
+INFO main com.test.design.factory.service.CouponCommodityService - 请求参数(会员卡)=》 uid:1003 commodityId:aEcmjasasid12a4 bizId:null extMap:null
+INFO main com.test.design.factory.service.CouponCommodityService - 测试结果[会员卡]:{}
