@@ -1,38 +1,42 @@
 package com.test.build;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import java.math.BigDecimal;
 
-/**
- * Unit test for simple App.
- */
+import org.junit.Test;
+
+import com.test.build.buildMode.Builder;
+import com.test.build.commoMode.DecorationPackageController;
+
+import junit.framework.TestCase;
+
 public class AppTest 
     extends TestCase
 {
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public AppTest( String testName )
-    {
-        super( testName );
-    }
-
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( AppTest.class );
-    }
-
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-        assertTrue( true );
-    }
+    
+	@Test
+	public void test_DecorationPackageController() {
+		
+		DecorationPackageController decoration = new DecorationPackageController();
+		
+		System.out.println(decoration.getMatterList(new BigDecimal("123.23"),1));
+		
+		System.out.println(decoration.getMatterList(new BigDecimal("87.23"),2));
+		
+		System.out.println(decoration.getMatterList(new BigDecimal("80.2"),3));
+		
+		
+	}
+	
+	@Test
+	public void test_DecorationPackageController2() {
+		
+		Builder builder = new Builder();
+		
+		System.out.println(builder.levelOne(123.52D).getDetail());
+		
+		System.out.println(builder.levelOne(100.52D).getDetail());
+		
+		System.out.println(builder.levelOne(99.52D).getDetail());
+		
+	}
 }
