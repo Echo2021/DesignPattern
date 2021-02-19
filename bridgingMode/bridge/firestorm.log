@@ -1,0 +1,16 @@
+INFO main com.test.bridge.PayController - 模拟微信渠道支付转账开始,uId: weixin_100329 tradeId: 10001694 amount: 100
+INFO main com.test.bridge.PayController - 人脸支付，风控校验脸部识别
+INFO main com.test.bridge.PayController - 模拟支付宝渠道支付划账开始。uId：zfb_1012131 tradeId：10023425 amount：100
+INFO main com.test.bridge.PayController - 指纹支付，风控校验指纹信息
+INFO main com.test.bridge.PayController - 模拟微信渠道支付转账开始,uId: weixin_100329 tradeId: 10001694 amount: 100
+INFO main com.test.bridge.PayController - 人脸支付，风控校验脸部识别
+INFO main com.test.bridge.PayController - 模拟支付宝渠道支付划账开始。uId：zfb_1012131 tradeId：10023425 amount：100
+INFO main com.test.bridge.PayController - 指纹支付，风控校验指纹信息
+INFO main com.test.bridge_mod.channel.WxPay - 模拟微信渠道支付划账开始。uId：wx_100329 tradeId：10001988 amount：100
+INFO main com.test.bridge_mod.mode.PayFaceMode - 人脸支付，风控校验脸部识别
+INFO main com.test.bridge_mod.channel.WxPay - 模拟微信渠道支付风控校验。uId：wx_100329 tradeId：10001988 security：true
+INFO main com.test.bridge_mod.channel.WxPay - 模拟微信渠道支付划账成功。uId：wx_100329 tradeId：10001988 amount：100
+INFO main com.test.bridge_mod.channel.ZfbPay - 模拟支付宝渠道支付划账开始。uId：zfb10003249 tradeId：100002342 amount：299
+INFO main com.test.bridge_mod.mode.PayFingerprintMode - 指纹支付，风控校验指纹信息
+INFO main com.test.bridge_mod.channel.ZfbPay - 模拟支付宝渠道支付风控校验。uId：zfb10003249 tradeId：100002342 security：true
+INFO main com.test.bridge_mod.channel.ZfbPay - 模拟支付宝渠道支付划账成功。uId：zfb10003249 tradeId：100002342 amount：299
