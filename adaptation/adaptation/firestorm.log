@@ -1,0 +1,2 @@
+INFO main com.test.common_mod.service.POPOrderService - POP商家，查询用户的订单是否为首单：100001
+INFO main com.test.common_mod.service.OrderService - 自营商家，查询用户订单是否为首单:100001
