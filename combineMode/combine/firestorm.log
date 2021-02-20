@@ -1,0 +1,21 @@
+INFO main com.test.combine.EngineController - ifelse实现方式判断用户结果。userId：qijid userSex：man userAge：29
+INFO main com.test.combine.AppTest - 测试结果: 果实B
+INFO main com.test.combine.AppTest - 决策树组合结构信息：
+null
+INFO main com.test.combine.AppTest - 决策树组合结构信息：
+null
+INFO main com.test.combine.AppTest - 决策树组合结构信息：
+null
+INFO main com.test.combine.AppTest - 决策树组合结构信息：
+null
+INFO main com.test.combine.AppTest - 决策树组合结构信息：
+null
+INFO main com.test.combine.EngineController - ifelse实现方式判断用户结果。userId：qijid userSex：man userAge：29
+INFO main com.test.combine.AppTest - 测试结果: 果实B
+INFO main com.test.combine.AppTest - 决策树组合结构信息：
+null
+INFO main com.test.combine.AppTest - 决策树组合结构信息：
+{"treeNodeMap":{112:{"nodeType":2,"nodeValue":"果实B","treeId":10001,"treeNodeId":112},1:{"nodeType":1,"ruleDesc":"用户性别[男/女]","ruleKey":"userGender","treeId":10001,"treeNodeId":1,"treeNodeLinkList":[{"nodeIdFrom":1,"nodeIdTo":11,"ruleLimitType":1,"ruleLimitValue":"man"},{"nodeIdTo":12,"ruleLimitType":1,"ruleLimitValue":"woman"}]},121:{"nodeType":2,"nodeValue":"果实C","treeId":10001,"treeNodeId":121},122:{"nodeType":2,"nodeValue":"果实D","treeId":10001,"treeNodeId":122},11:{"nodeType":1,"ruleDesc":"用户年龄","ruleKey":"userAge","treeId":10001,"treeNodeId":11,"treeNodeLinkList":[{"nodeIdFrom":11,"nodeIdTo":111,"ruleLimitType":3,"ruleLimitValue":"25"},{"nodeIdFrom":11,"nodeIdTo":112,"ruleLimitType":5,"ruleLimitValue":"25"}]},12:{"nodeType":1,"ruleDesc":"用户年龄","ruleKey":"userAge","treeId":10001,"treeNodeId":12,"treeNodeLinkList":[{"nodeIdFrom":12,"nodeIdTo":121,"ruleLimitType":3,"ruleLimitValue":"25"},{"nodeIdFrom":12,"nodeIdTo":122,"ruleLimitType":5,"ruleLimitValue":"25"}]},111:{"nodeType":2,"nodeValue":"果实A","treeId":10001,"treeNodeId":111}},"treeRoot":{"treeId":10001,"treeName":"规则决策树","treeRootNodeId":1}}
+INFO main com.test.combine_mod.service.engine.EngineBase - 决策树引擎=>规则决策树 userId：Oli09pLkdjh treeId：10001 treeNode：11 ruleKey：userGender matterValue：man
+INFO main com.test.combine_mod.service.engine.EngineBase - 决策树引擎=>规则决策树 userId：Oli09pLkdjh treeId：10001 treeNode：112 ruleKey：userAge matterValue：29
+INFO main com.test.combine.AppTest - 测试结果：{"nodeId":112,"nodeValue":"果实B","success":true,"treeId":10001,"userId":"Oli09pLkdjh"}
