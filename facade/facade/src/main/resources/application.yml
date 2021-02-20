@@ -1,0 +1,11 @@
+server:
+   port: 8080
+spring:
+   application:
+      name: facade-helloworld-door
+     
+# 自定义中间件
+facade:
+   door:
+      enabled: true
+      userStr: 1001,aaaa,ccc
