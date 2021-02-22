@@ -1,0 +1,11 @@
+INFO main com.test.share.AppTest - 测试结果：10001 {"desc":"图书优惠券分享激励分享活动第二期","id":10001,"name":"图书","startTime":1613964845648,"stock":{"total":1000,"used":1},"stopTime":1613964845648}
+INFO main com.test.share.AppTest - 测试结果：10001 {"desc":"图书优惠券分享激励分享活动第二期","id":10001,"name":"图书","startTime":1613974028466,"stock":{"total":1000,"used":1},"stopTime":1613974028466}
+INFO main com.test.share.AppTest - 测试结果：10001 {"desc":"图书优惠券分享激励分享活动第二期","id":10001,"name":"图书","startTime":1613974028466,"stock":{"total":1000,"used":15},"stopTime":1613974028466}
+INFO main com.test.share.AppTest - 测试结果：10001 {"desc":"图书优惠券分享激励分享活动第二期","id":10001,"name":"图书","startTime":1613974028466,"stock":{"total":1000,"used":27},"stopTime":1613974028466}
+INFO main com.test.share.AppTest - 测试结果：10001 {"desc":"图书优惠券分享激励分享活动第二期","id":10001,"name":"图书","startTime":1613974028466,"stock":{"total":1000,"used":39},"stopTime":1613974028466}
+INFO main com.test.share.AppTest - 测试结果：10001 {"desc":"图书优惠券分享激励分享活动第二期","id":10001,"name":"图书","startTime":1613974028466,"stock":{"total":1000,"used":51},"stopTime":1613974028466}
+INFO main com.test.share.AppTest - 测试结果：10001 {"desc":"图书优惠券分享激励分享活动第二期","id":10001,"name":"图书","startTime":1613974028466,"stock":{"total":1000,"used":64},"stopTime":1613974028466}
+INFO main com.test.share.AppTest - 测试结果：10001 {"desc":"图书优惠券分享激励分享活动第二期","id":10001,"name":"图书","startTime":1613974028466,"stock":{"total":1000,"used":76},"stopTime":1613974028466}
+INFO main com.test.share.AppTest - 测试结果：10001 {"desc":"图书优惠券分享激励分享活动第二期","id":10001,"name":"图书","startTime":1613974028466,"stock":{"total":1000,"used":88},"stopTime":1613974028466}
+INFO main com.test.share.AppTest - 测试结果：10001 {"desc":"图书优惠券分享激励分享活动第二期","id":10001,"name":"图书","startTime":1613974028466,"stock":{"total":1000,"used":100},"stopTime":1613974028466}
+INFO main com.test.share.AppTest - 测试结果：10001 {"desc":"图书优惠券分享激励分享活动第二期","id":10001,"name":"图书","startTime":1613974028466,"stock":{"total":1000,"used":112},"stopTime":1613974028466}
